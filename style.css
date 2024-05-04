@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+.previcon{
+    background-color: rgb(75, 75, 75);
+}
+
+.sp-txt {
+    display: none;
+    position: absolute;
+    top: calc(100% + 3px); 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: #f0f0f0; 
+    padding: 5px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.bgcolr{
+    background-color: rgb(219, 250, 240);
+}
+
+.hovr-container:hover .sp-txt {
+    display: block;
+}
+
+body{
+    background-color: rgb(202, 235, 228);
+}
+
+.newcolor{
+    background-color: rgb(144, 219, 204)
+}
+
+.contr{
+    background-color: rgb(101, 203, 183);
+}
+
+.buttonhover{
+    padding: 10px;
+}
+
+.heading{
+    font-weight:400;
+}
+
+.iconsubj
+{
+    max-width: 50%;
+    overflow: hidden;
+}
+
+.mail{
+    color: rgb(29, 29, 29);
+    transition: all 0.4s ease;
+}
+
+.mail:hover{
+    background-color: rgb(203, 251, 251);
+    border-radius: 10px;
+    padding:5px;
+    color:rgb(29, 29, 29);
+}
+
+.buttonhover:hover{
+    padding: 10px;
+    background-color: rgb(81, 179, 159);
+    max-width: max-content;
+    border-radius: 15px;
+    text-decoration: underline;
+    animation: underlineLoading 0.7s ease-in forwards;
+}
+
+@keyframes underlineLoading {
+    0% {
+        width: 0;
+        left: 0;
+    }
+    100% {
+        width: 100%;
+        left: 0;
+    }
+}
+
+.carousel-caption{
+    display: block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caroimg{
+    display: block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 10px;
+    width:80%;
+    height: 50%;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.caroimg:hover{
+    transform: scale(1.1);
+}
+
+.slidebg{
+    background-color: rgb(236, 255, 249);
+}
+
+.padder{
+    padding: 10px;
+} 
+
+.brandtext{
+    color: rgb(213, 245, 234);
+    padding-left: 50px;
+    padding-right: 50px;
+    display: block;
+    align-items: center;
+    font-size: 2em ;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.toggler:active{
+    background-color:rgb(57, 137, 120) ;
+}
+
+
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
